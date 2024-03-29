@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "my-site-sample-client-side-solution",
+    "id": "46d778b9-c0ed-4138-84f1-21dfcf9b5c3d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "my-site-sample description"
+      },
+      "longDescription": {
+        "default": "my-site-sample description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "my-site-sample Feature",
+        "description": "The feature that activates elements of the my-site-sample solution.",
+        "id": "463b897d-ccae-496f-bea2-1dc5336da0fb",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/my-site-sample.sppkg"
+  }
+}
